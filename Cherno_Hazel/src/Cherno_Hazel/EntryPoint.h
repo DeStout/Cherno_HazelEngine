@@ -8,8 +8,7 @@ int main(int argc, char** argv)
 {
 	Cherno_Hazel::Log::Init();
 	HZ_CORE_WARN("Initialized Log!");
-	int a = 4;
-	HZ_CORE_INFO("Hello there Var={0}", a);
+	HZ_CORE_INFO("Hello there.");
 
 
 	auto app = Cherno_Hazel::CreateApplication();
